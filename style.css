@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-size: 4rem;
+}
+span{
+  font-size: 6rem;
+}
+
+.btn{
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  color: white;
+}
+
+.btn:nth-child(1){
+  background-color: red;
+}
+.btn:nth-child(2){
+  background-color:rgb(82, 80, 80);
+}
+.btn:nth-child(3){
+  background-color: green;
+}
